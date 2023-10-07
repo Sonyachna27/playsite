@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/playsite/static/css/main.2d6e2858.css",
-    "main.js": "/playsite/static/js/main.0ae154dd.js",
+    "main.js": "/playsite/static/js/main.c695bc07.js",
     "static/js/787.b270856b.chunk.js": "/playsite/static/js/787.b270856b.chunk.js",
     "static/media/pulse.mp4": "/playsite/static/media/pulse.ddac0cd1a8ad8f6e15ab.mp4",
     "static/media/sectionBG.png": "/playsite/static/media/sectionBG.65c3739e1ebeb6b891c3.png",
@@ -20,7 +20,7 @@
     "static/media/NewsImg5.png": "/playsite/static/media/NewsImg5.296ee22cd0a2e193153b.png",
     "static/media/NewsImg9.png": "/playsite/static/media/NewsImg9.a2aaa33c2d28a2a05a19.png",
     "static/media/NewsImg7.png": "/playsite/static/media/NewsImg7.242dce43031699bf777c.png",
-    "static/media/unreal.svg": "/playsite/static/media/unreal.3cf51c22115a686ee7e7817fbab45ac3.svg",
+    "static/media/unreal.svg": "/playsite/static/media/unreal.4bc22033b4c1c40e101e133875652724.svg",
     "static/media/NewsImg3.png": "/playsite/static/media/NewsImg3.19101d81583f23b4ba65.png",
     "static/media/Rectangle18.png": "/playsite/static/media/Rectangle18.2810bc82c4c3e434c645.png",
     "static/media/Rectangle23.png": "/playsite/static/media/Rectangle23.baae70d4267a3226430f.png",
@@ -31,7 +31,7 @@
     "static/media/Rectangle25.png": "/playsite/static/media/Rectangle25.75a18f301d1e26ddb596.png",
     "static/media/Rectangle24.png": "/playsite/static/media/Rectangle24.ef4f54405b9f2167fc56.png",
     "static/media/Rectangle16.png": "/playsite/static/media/Rectangle16.57c79543c4e2554b967d.png",
-    "static/media/cry.svg": "/playsite/static/media/cry.cde6cfc3d41e01ffff412e3bac95609a.svg",
+    "static/media/cry.svg": "/playsite/static/media/cry.6461a6b8ad88066b7b3d74dd1feac955.svg",
     "static/media/Rectangle25.jpg": "/playsite/static/media/Rectangle25.077bd41e2cabdc850f73.jpg",
     "static/media/NewsImg8.png": "/playsite/static/media/NewsImg8.ede845adc0fcafd46df1.png",
     "static/media/joy_stick.png": "/playsite/static/media/joy_stick.9e23e5dbdccec57883b5.png",
@@ -68,11 +68,11 @@
     "static/media/bx_bxs-check-circle.svg": "/playsite/static/media/bx_bxs-check-circle.70bcd46f9110ed3e3ea99572e5af9ef5.svg",
     "static/media/Group97.svg": "/playsite/static/media/Group97.3760107ac19ff0bfc2165dfb51c6fc3b.svg",
     "main.2d6e2858.css.map": "/playsite/static/css/main.2d6e2858.css.map",
-    "main.0ae154dd.js.map": "/playsite/static/js/main.0ae154dd.js.map",
+    "main.c695bc07.js.map": "/playsite/static/js/main.c695bc07.js.map",
     "787.b270856b.chunk.js.map": "/playsite/static/js/787.b270856b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2d6e2858.css",
-    "static/js/main.0ae154dd.js"
+    "static/js/main.c695bc07.js"
   ]
 }
