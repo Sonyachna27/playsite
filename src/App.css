@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&family=Rubik:wght@400;500&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-size: 16px;
+}
+body{
+  background: linear-gradient(180deg, #000 0%, #4A2800 100%);
+  color: #ffffff;
+  
+}
+body::-webkit-scrollbar {
+  width: 12px;               /* ширина всей полосы прокрутки */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body::-webkit-scrollbar-track {
+  background: orange;        
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(29, 29, 29);    
+  border-radius: 10px;       
+  border: 2px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.container{
+  max-width: 1240px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
-.App-link {
-  color: #61dafb;
+ul{
+  list-style: none;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+a{
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
+  padding: 0;
+  width: fit-content;
+  cursor: pointer;
+  font: inherit;
+}
+button{
+  color: inherit;
+  border: none;
+  cursor: pointer;
+  transition: inherit;
+}
+@media screen and (min-width: 1640px) {
+  .container{
+      max-width: 1340px;    
   }
 }

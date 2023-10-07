@@ -1,0 +1,18 @@
+.Contact-page{
+    background: linear-gradient(176deg, #090501 -26.24%, #120A01 96.98%);
+padding-bottom: 85px;
+
+}
+.contact-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 93px;
+
+}
+@media screen and (max-width:990px) {
+    .contact-top {
+        margin-top: 108px;
+    }
+}

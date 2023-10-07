@@ -1,0 +1,18 @@
+.singlePageNews-wrap{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 150px;
+}
+.singlePageNews-wrap img{
+    max-width: 450px;
+    width: 100%;
+    object-fit: cover;
+}
+.page-news h2{
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+.page-news p{
+    font-size: 18px;
+    margin-bottom: 25px;
+}

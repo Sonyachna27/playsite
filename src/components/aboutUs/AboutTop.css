@@ -1,0 +1,238 @@
+.about__top-wrapper{
+    display: flex;
+}
+.top-container{
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+}
+.about__top-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 425px;
+    width: 100%;
+    gap: 25px;
+    line-height: 208%;
+    margin-top: 93px;
+    margin-bottom: 144px;
+}
+.about__top-title{
+    font-size: 30px;
+    font-weight: 700;
+}
+.about__top-paragraph{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.about__top-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 16px 16px 19px;
+    max-width: 176px;
+    gap: 18px;
+    border-radius: 40px;
+    margin-bottom: 116px;
+    background: linear-gradient(113deg, #FA8305 0%, #FB9E3C 100%);
+     
+}
+.about__top-btn:hover{
+    background: linear-gradient(268deg,#952b17 0%, #fbc83c 100%);
+    transition-duration: 5s;
+    transition-property: background;
+    transition-timing-function: linear;
+}
+.swiper__wrap{
+    position: relative;
+}
+.top-container .swiper{
+    max-width: 639px;
+    width: 100%;
+    position: relative;
+    margin-right: 0;
+    max-height: 100%;
+}
+.swiper-horizontal {
+    max-height: 556px;
+    height: 100%;
+}
+
+.swiper-wrapper.swiper-wrapper .slider__about-img {
+    max-height: 556px;
+    width: 100%;
+    height: 100%;
+}
+.swiper-pagination{
+    position: absolute;
+    bottom: 1%;
+    left: 0;
+   max-width: 179px;
+    height: 67px;
+    flex-shrink: 0;
+    background: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   padding: 17px 70px;
+}
+.swiper-button-next::after {
+    position: absolute;
+    content: url("../../images/arrow6.svg");
+    bottom: 89px;
+    left: 50px;
+    width: 12px;
+    height: 12px;
+}
+.swiper-button-next {
+    position: absolute;
+    top: 106%;
+    left: 70px;
+    width: 12px;
+    height: 13px;
+    z-index: 11;
+}
+.swiper-button-prev::after {
+    position: absolute;
+    content: url("../../images/arrow7.svg");
+    bottom: 89px;
+    left: 17px;
+    width: 12px;
+    height: 12px;
+}
+.swiper-button-prev {
+    position: absolute; 
+    top: 106%;  
+    left: 25px;
+    width: 12px;
+    height: 13px;
+    z-index: 11;
+}
+
+.about__info-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 63px;
+}
+.about__info-title{
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 180.5%;
+}
+.about__cards-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 43px;
+   margin-bottom: 143px;
+}
+.about__card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 37px 64px;
+    gap: 19px;
+    border-radius: 20px;
+    background: #1C140F;
+    box-shadow: 0px 4px 94px 0px rgba(0, 0, 0, 0.15);
+}
+.about__card-title{
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 187.5%;
+    margin-bottom: 15px;
+}
+.about__card-paragraph{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 187.5%; 
+}
+
+@media screen and (min-width:1405px) {
+    .top-container .swiper{
+        margin-right: -178px;
+        max-width: 739px;
+    }
+    .swiper-wrapper.swiper-wrapper .slider__about-img {
+        max-height: 649px;
+    }
+}
+@media screen and (max-width:1023px) {
+   
+    .top-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+    .about__top-content {
+        max-width: 100%;
+        margin: 50px 0;
+        align-items: center;
+    }
+    .swiper__wrap .swiper {
+        margin-right: auto;
+        max-width: 100%;
+    }
+    .top__paragraph {
+        text-align: center;
+    }
+}
+@media screen and (max-width:990px) {
+    .about__top{
+        margin-top: 98px;
+    }
+    .top-container .swiper{
+        max-width: 100%;
+    }
+    .about__team-wrap {
+       flex-direction: column-reverse;
+        gap: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+    .about__team-text {
+        align-items: center;
+        justify-content: center;
+    }
+    .about__cards-wrapper {
+        grid-template-columns:  1fr;
+        gap: 20px;
+        margin-bottom: 50px;
+    }
+}
+@media screen and (max-width:780px) {
+    .top__title,
+    .about__info-title {
+        font-size: 20px;
+    }
+    .about__card-title{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:680px) {
+    .swiper-pagination {
+        
+        max-width: 135px;
+        max-height: fit-content;
+        padding: 7px 45px;
+    }
+    .swiper-button-prev::after{
+        left: 0;
+        bottom: 85px;
+    }
+    .swiper-button-next::after {
+        bottom: 85px;
+        left: 27px;
+    }
+    .swiper-wrapper.swiper-wrapper .slider__about-img {
+        width: 100%;
+        min-height:649px;
+    }
+}
