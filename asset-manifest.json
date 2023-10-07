@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/playsite/static/css/main.2d6e2858.css",
-    "main.js": "/playsite/static/js/main.c695bc07.js",
+    "main.css": "/playsite/static/css/main.df2c523f.css",
+    "main.js": "/playsite/static/js/main.e585efee.js",
     "static/js/787.b270856b.chunk.js": "/playsite/static/js/787.b270856b.chunk.js",
     "static/media/pulse.mp4": "/playsite/static/media/pulse.ddac0cd1a8ad8f6e15ab.mp4",
     "static/media/sectionBG.png": "/playsite/static/media/sectionBG.65c3739e1ebeb6b891c3.png",
+    "static/media/Rectangle20.png": "/playsite/static/media/Rectangle20.c938a7c2a807121c3de1.png",
     "static/media/NewsImg2.png": "/playsite/static/media/NewsImg2.2a5299b050ee5ad99627.png",
     "static/media/NewsImg1.png": "/playsite/static/media/NewsImg1.3f55b0bb4819b90e1e08.png",
     "static/media/Rectangle4.png": "/playsite/static/media/Rectangle4.03e63bdae7c460284501.png",
@@ -26,7 +27,6 @@
     "static/media/Rectangle23.png": "/playsite/static/media/Rectangle23.baae70d4267a3226430f.png",
     "static/media/Rectangle17.png": "/playsite/static/media/Rectangle17.e30af79aadab3e08bae2.png",
     "static/media/Rectangle15.png": "/playsite/static/media/Rectangle15.4dc7f3ad005605cbe1ca.png",
-    "static/media/Rectangle20.png": "/playsite/static/media/Rectangle20.1bd05c125825fae79372.png",
     "static/media/Rectangle26.png": "/playsite/static/media/Rectangle26.d94b6d000c2ccc0e5a3b.png",
     "static/media/Rectangle25.png": "/playsite/static/media/Rectangle25.75a18f301d1e26ddb596.png",
     "static/media/Rectangle24.png": "/playsite/static/media/Rectangle24.ef4f54405b9f2167fc56.png",
@@ -41,11 +41,11 @@
     "static/media/unity1.svg": "/playsite/static/media/unity1.bd8d8cf3508300119ed5b02771634202.svg",
     "static/media/Rectangle19.png": "/playsite/static/media/Rectangle19.f68653b47f931c11621d.png",
     "static/media/littleBtn.svg": "/playsite/static/media/littleBtn.4bddcb56042ef9b468a6bc97ed54d4b1.svg",
+    "static/media/phone1.svg": "/playsite/static/media/phone1.fae6bbf146329079a1adcd0df20c69fc.svg",
     "static/media/pc.svg": "/playsite/static/media/pc.223dbcdb3cffecf3ec79b50d45711f45.svg",
     "static/media/smartphone.svg": "/playsite/static/media/smartphone.3b93e7c346b6d6e61037609e573d1339.svg",
     "static/media/desktop.svg": "/playsite/static/media/desktop.c7d5b0aa30285a79d8cb67154707e123.svg",
     "static/media/vr-glasses.svg": "/playsite/static/media/vr-glasses.93d262a08d4d37958bebae5d13f38275.svg",
-    "static/media/phone1.svg": "/playsite/static/media/phone1.06286362a9378b0f4e0bee1f3174f3d1.svg",
     "static/media/3d-cube.svg": "/playsite/static/media/3d-cube.67cc88b366c6a9e62fb727d59ea6907b.svg",
     "static/media/fire.svg": "/playsite/static/media/fire.f542d22d992a30472cf26cd5ce8959b2.svg",
     "static/media/instagram.svg": "/playsite/static/media/instagram.15027a107c418b65ca3a92a7fe498f71.svg",
@@ -67,12 +67,12 @@
     "static/media/gridicons_location.svg": "/playsite/static/media/gridicons_location.a1989190b39007b375e93472a37b817b.svg",
     "static/media/bx_bxs-check-circle.svg": "/playsite/static/media/bx_bxs-check-circle.70bcd46f9110ed3e3ea99572e5af9ef5.svg",
     "static/media/Group97.svg": "/playsite/static/media/Group97.3760107ac19ff0bfc2165dfb51c6fc3b.svg",
-    "main.2d6e2858.css.map": "/playsite/static/css/main.2d6e2858.css.map",
-    "main.c695bc07.js.map": "/playsite/static/js/main.c695bc07.js.map",
+    "main.df2c523f.css.map": "/playsite/static/css/main.df2c523f.css.map",
+    "main.e585efee.js.map": "/playsite/static/js/main.e585efee.js.map",
     "787.b270856b.chunk.js.map": "/playsite/static/js/787.b270856b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d6e2858.css",
-    "static/js/main.c695bc07.js"
+    "static/css/main.df2c523f.css",
+    "static/js/main.e585efee.js"
   ]
 }
