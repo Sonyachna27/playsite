@@ -1,0 +1,21 @@
+.video-block{
+    position: relative;
+}
+.video-visible {
+    display: block;
+    max-width: 669px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 16px;
+  } 
+  .video-hidden {
+    display: none;
+  }
+  video {
+    position: relative;
+    z-index: 2;
+    max-height: 354.937px;
+    border-radius: 16px;
+    width: 100%;
+  }

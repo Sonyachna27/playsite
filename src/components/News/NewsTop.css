@@ -1,0 +1,18 @@
+.news-page{
+    background: linear-gradient(176deg, #050301 -34.57%, #150C01 96.75%);
+}
+.news__top-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 74px;
+}
+.news-bottom{
+    padding-bottom: 148px;
+}
+@media screen and (max-width:990px) {
+    .news-page {
+        margin-top: 115px;
+    }
+}

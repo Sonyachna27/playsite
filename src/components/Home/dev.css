@@ -1,0 +1,54 @@
+.dev{
+    background: url(../../images/sectionBG.png) center / cover no-repeat;
+    width: 100%;
+    padding: 93px 0px;
+}
+.dev__title-wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    max-width: 826px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 99px;
+}
+.dev__title{
+    margin: 0 auto;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 187.5%;
+}
+.dev__paragraph{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 187.5%;
+}
+.dev__block{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 84px;
+}
+.dev__block-icon{
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 21px;
+}
+.arrows{
+    width: 21px;
+    height: 21px;
+}
+.dev__icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65px;
+    height: 65px;
+    background: #ffffff;
+    border-radius: 50%;
+    margin-bottom: 9px;
+}
