@@ -86,6 +86,14 @@
     align-items: center;
     justify-content: end;
 }
+input[type="email"]:focus,
+.form-wrapper input:not([type="submit"]):focus,
+.form-wrapper textarea:focus {
+    border: 1px solid #fefe65;
+    outline: 0;
+    padding-right: 10px;
+}
+
 @media screen and (max-width:990px) {
     .name-wrap {
         grid-template-columns:  1fr;
